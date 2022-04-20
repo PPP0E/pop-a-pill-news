@@ -13,11 +13,6 @@
     /* Prevent inheritance from `body` */
 }
 
-
-/*
- * Base structure
- */
-
 body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
@@ -27,11 +22,6 @@ body {
     max-width: 42em;
 }
 
-
-/*
- * Header
- */
-
 body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
@@ -40,11 +30,6 @@ body {
 .cover-container {
     max-width: 360px;
 }
-
-
-/*
- * Header
- */
 
 .nav-masthead .nav-link {
     padding: .25rem 0;

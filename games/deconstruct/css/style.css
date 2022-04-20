@@ -10,54 +10,85 @@ BODY {
 .tile6,
 .tile7,
 .tile8,
-.tile9 {
+.tile9,
+.tile10,
+.tile11,
+.tile12,
+.tile13,
+.tile14,
+.tile15,
+.tile16 {
     display: table-cell;
     width: 120px;
     height: 120px;
     border: 1px solid white;
-    background: url("/games/deconstruct/images/sesu.jpeg");
+    background: url("https://popapillnews.beoz.org/games/deconstruct/images/sesu480.jpeg");
     cursor: pointer;
 }
 
 .tile1 {
-    background-position: left top;
-    border-radius: 0% 0% 0% 0%;
+    background-position: 0px 0px;
 }
 
 .tile2 {
-    background-position: center top;
+    background-position: 360px 0px;
 }
 
 .tile3 {
-    background-position: right top;
-    border-radius: 0% 0% 0% 0%;
+    background-position: 240px 0px;
 }
 
 .tile4 {
-    background-position: left center;
+    background-position: 120px 0px;
 }
 
 .tile5 {
-    background-position: center center;
+    background-position: 0px 360px;
 }
 
 .tile6 {
-    background-position: right center;
+    background-position: 360px 360px;
 }
 
 .tile7 {
-    background-position: left bottom;
-    border-radius: 0% 0% 0% 0%;
+    background-position: 240px 360px;
 }
 
 .tile8 {
-    background-position: center bottom;
+    background-position: 120px 360px;
 }
 
 .tile9 {
-    background: rgb(34, 37, 41);
+    background-position: 0px 240px;
+}
+
+.tile10 {
+    background-position: 360px 240px;
+}
+
+.tile11 {
+    background-position: 240px 240px;
+}
+
+.tile12 {
+    background-position: 120px 240px;
+}
+
+.tile13 {
+    background-position: 0px 120px;
+}
+
+.tile14 {
+    background-position: 360px 120px;
+}
+
+.tile15 {
+    background-position: 240px 120px;
+}
+
+.tile16 {
+    background: white;
     cursor: default;
-    border-radius: 0% 0% 0% 0%;
 }
 
 html {
