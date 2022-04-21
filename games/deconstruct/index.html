@@ -3,15 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta property="og:title" content="Deconstruct Şesu" />
+    <meta property="og:title" content="Slide Su" />
     <meta property="og:image" content="https://popapillnews.beoz.org/games/deconstruct/images/imessage.jpg" />
-    <meta property="og:title" content="Deconstruct Su" />
-    <meta property="og:description" content="Divide Şesu into pieces like you always wanted..." />
-    <meta property="og:image" content="https://popapillnews.beoz.org/games/deconstruct/images/imessage.jpg" />
+    <meta property="og:description" content="Slide, Shuffle and Deconstruct Su in this simple puzzle" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cover.css">
-
 </head>
 
 <body class="h-100 text-center text-white bg-dark">
@@ -19,38 +16,36 @@
         <header class="mb-auto"></header>
         <main class="">
             <div>
-                <center>
-                    <div id="table" class="redbox" style="display: table;">
-                        <div id="row1" style="display: table-row;">
-                            <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
-                            <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
-                            <div id="cell13" class="tile3" onClick="clickTile(1,3);"></div>
-                            <div id="cell14" class="tile4" onClick="clickTile(1,4);"></div>
-                        </div>
-                        <div id="row2" style="display: table-row;">
-                            <div id="cell21" class="tile5" onClick="clickTile(2,1);"></div>
-                            <div id="cell22" class="tile6" onClick="clickTile(2,2);"></div>
-                            <div id="cell23" class="tile7" onClick="clickTile(2,3);"></div>
-                            <div id="cell24" class="tile8" onClick="clickTile(2,4);"></div>
-                        </div>
-                        <div id="row3" style="display: table-row;">
-                            <div id="cell31" class="tile9" onClick="clickTile(3,1);"></div>
-                            <div id="cell32" class="tile10" onClick="clickTile(3,2);"></div>
-                            <div id="cell33" class="tile11" onClick="clickTile(3,3);"></div>
-                            <div id="cell34" class="tile12" onClick="clickTile(3,4);"></div>
-                        </div>
-                        <div id="row4" style="display: table-row;">
-                            <div id="cell41" class="tile13" onClick="clickTile(4,1);"></div>
-                            <div id="cell42" class="tile14" onClick="clickTile(4,2);"></div>
-                            <div id="cell43" class="tile15" onClick="clickTile(4,3);"></div>
-                            <div id="cell44" class="tile16" onClick="clickTile(4,4);"></div>
-                        </div>
+                <div id="table" class="tiles" style="display: table;">
+                    <div id="row1" style="display: table-row;">
+                        <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
+                        <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
+                        <div id="cell13" class="tile3" onClick="clickTile(1,3);"></div>
+                        <div id="cell14" class="tile4" onClick="clickTile(1,4);"></div>
                     </div>
-                    <div class="" style="margin-top: 50px;">
-                        <button class="btn btn-primary btn-lg" onClick="shuffle();">Shuffle</button>
-                        <button class="btn btn-success btn-lg" onClick="window.location.reload();">Solve</button>
+                    <div id="row2" style="display: table-row;">
+                        <div id="cell21" class="tile5" onClick="clickTile(2,1);"></div>
+                        <div id="cell22" class="tile6" onClick="clickTile(2,2);"></div>
+                        <div id="cell23" class="tile7" onClick="clickTile(2,3);"></div>
+                        <div id="cell24" class="tile8" onClick="clickTile(2,4);"></div>
                     </div>
-                </center>
+                    <div id="row3" style="display: table-row;">
+                        <div id="cell31" class="tile9" onClick="clickTile(3,1);"></div>
+                        <div id="cell32" class="tile10" onClick="clickTile(3,2);"></div>
+                        <div id="cell33" class="tile11" onClick="clickTile(3,3);"></div>
+                        <div id="cell34" class="tile12" onClick="clickTile(3,4);"></div>
+                    </div>
+                    <div id="row4" style="display: table-row;">
+                        <div id="cell41" class="tile13" onClick="clickTile(4,1);"></div>
+                        <div id="cell42" class="tile14" onClick="clickTile(4,2);"></div>
+                        <div id="cell43" class="tile15" onClick="clickTile(4,3);"></div>
+                        <div id="cell44" class="tile16" onClick="clickTile(4,4);"></div>
+                    </div>
+                </div>
+                <div class="" style="margin-top: 50px;">
+                    <button class="btn btn-primary btn-lg" onClick="shuffle();">Shuffle</button>
+                    <button class="btn btn-success btn-lg" onClick="window.location.reload();">Solve</button>
+                </div>
             </div>
         </main>
         <footer class=" mt-auto text-white-50 ">
@@ -60,6 +55,6 @@
 
     <script src="js/script.js "></script>
 </body>
-<img src="https://iplogger.org/1viBR7" width="1" height="1">
+<div class="box"></div>
 
 </html>

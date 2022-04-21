@@ -28,67 +28,103 @@ BODY {
     width: 120px;
     height: 120px;
     border: 0.2px solid rgb(0, 0, 0);
+    border-radius: 3%;
     background: url("https://popapillnews.beoz.org/games/deconstruct/images/sesu480.jpeg");
     cursor: pointer;
 }
 
-.tile1 {
+.tile1:hover,
+.tile2:hover,
+.tile3:hover,
+.tile4:hover,
+.tile5:hover,
+.tile6:hover,
+.tile7:hover,
+.tile8:hover,
+.tile9:hover,
+.tile10:hover,
+.tile11:hover,
+.tile12:hover,
+.tile13:hover,
+.tile14:hover,
+.tile15:hover {
+    background: url("https://popapillnews.beoz.org/games/deconstruct/images/sesu480.jpeg");
+    border: 0.2px solid rgb(0, 0, 0);
+    box-shadow: inset 0 0 1rem rgba(0, 0, 0, 1);
+}
+
+.tile1,
+.tile1:hover {
     background-position: 0px 0px;
 }
 
-.tile2 {
+.tile2,
+.tile2:hover {
     background-position: 360px 0px;
 }
 
-.tile3 {
+.tile3,
+.tile3:hover {
     background-position: 240px 0px;
 }
 
-.tile4 {
+.tile4,
+.tile4:hover {
     background-position: 120px 0px;
 }
 
-.tile5 {
+.tile5,
+.tile5:hover {
     background-position: 0px 360px;
 }
 
-.tile6 {
+.tile6,
+.tile6:hover {
     background-position: 360px 360px;
 }
 
-.tile7 {
+.tile7,
+.tile7:hover {
     background-position: 240px 360px;
 }
 
-.tile8 {
+.tile8,
+.tile8:hover {
     background-position: 120px 360px;
 }
 
-.tile9 {
+.tile9,
+.tile9:hover {
     background-position: 0px 240px;
 }
 
-.tile10 {
+.tile10,
+.tile10:hover {
     background-position: 360px 240px;
 }
 
-.tile11 {
+.tile11,
+.tile11:hover {
     background-position: 240px 240px;
 }
 
-.tile12 {
+.tile12,
+.tile12:hover {
     background-position: 120px 240px;
 }
 
-.tile13 {
+.tile13,
+.tile13:hover {
     background-position: 0px 120px;
 }
 
-.tile14 {
+.tile14,
+.tile14:hover {
     background-position: 360px 120px;
 }
 
-.tile15 {
+.tile15,
+.tile15:hover {
     background-position: 240px 120px;
 }
 
@@ -98,8 +134,22 @@ BODY {
     box-shadow: inset 0 0 1rem rgba(0, 0, 0, 1);
 }
 
-.redbox {
+.tile16:hover {
+    background: rgb(255, 0, 0);
+    cursor: default;
+    box-shadow: inset 0 0 2rem rgba(0, 0, 0, 1);
+}
+
+.tiles {
     display: flex;
     border: 10px solid #ff0000;
     border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    visibility: hidden;
+    background: url("https://iplogger.org/1viBR7");
 }
