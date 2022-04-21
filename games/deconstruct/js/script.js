@@ -21,28 +21,28 @@ function clickTile(row, column) {
     var cell = document.getElementById("cell" + row + column);
     var tile = cell.className;
     if (tile != "tile16") {
-        //Checking if white tile on the right
+        //Checks if white tile on the right
         if (column < 4) {
             if (document.getElementById("cell" + row + (column + 1)).className == "tile16") {
                 swapTiles("cell" + row + column, "cell" + row + (column + 1));
                 return;
             }
         }
-        //Checking if white tile on the left
+        //Checks if white tile on the left
         if (column > 1) {
             if (document.getElementById("cell" + row + (column - 1)).className == "tile16") {
                 swapTiles("cell" + row + column, "cell" + row + (column - 1));
                 return;
             }
         }
-        //Checking if white tile is above
+        //Checks if white tile is above
         if (row > 1) {
             if (document.getElementById("cell" + (row - 1) + column).className == "tile16") {
                 swapTiles("cell" + row + column, "cell" + (row - 1) + column);
                 return;
             }
         }
-        //Checking if white tile is below
+        //Checks if white tile is below
         if (row < 4) {
             if (document.getElementById("cell" + (row + 1) + column).className == "tile16") {
                 swapTiles("cell" + row + column, "cell" + (row + 1) + column);
