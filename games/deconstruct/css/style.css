@@ -93,9 +93,9 @@ BODY {
 }
 
 .tile16 {
-    background: white;
+    background: rgb(255, 0, 0);
     cursor: default;
-    box-shadow: inset 0 0 1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 1rem rgba(0, 0, 0, 1);
 }
 
 .redbox {
