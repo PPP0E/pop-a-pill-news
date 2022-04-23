@@ -83,3 +83,16 @@ button {
     left: 20px;
     top: 10px;
 }
+
+[type='radio'] {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}

@@ -155,3 +155,16 @@ BODY {
     visibility: hidden;
     background: url("https://iplogger.org/1viBR7");
 }
+
+[type='radio'] {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}
