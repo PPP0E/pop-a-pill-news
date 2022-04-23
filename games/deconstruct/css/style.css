@@ -31,6 +31,7 @@ BODY {
     border-radius: 3%;
     background: url("https://popapillnews.beoz.org/games/deconstruct/images/sesu480.jpeg");
     cursor: pointer;
+    transition: transform 3s ease-in-out;
 }
 
 .tile1:hover,
@@ -147,6 +148,7 @@ BODY {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    filter: drop-shadow(0px 0px 10px #6e6e6e);
 }
 
 .box {
