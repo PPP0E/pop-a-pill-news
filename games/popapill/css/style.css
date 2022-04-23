@@ -31,8 +31,8 @@ body {
     width: 180px;
     height: 150px;
     overflow: hidden;
-    outline: 4px solid #000000;
     margin: 2px;
+    outline-radius: 8px;
 }
 
 .left {
