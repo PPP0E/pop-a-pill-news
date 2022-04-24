@@ -29,7 +29,7 @@ BODY {
     height: 120px;
     border: 0.2px solid rgb(0, 0, 0);
     border-radius: 3%;
-    background: url("https://popapillnews.beoz.org/games/deconstruct/images/sesu480.jpeg");
+    background: url("https://popapillnews.serife.xyz/games/deconstruct/images/sesu480.jpeg");
     cursor: pointer;
     transition: transform 3s ease-in-out;
 }
