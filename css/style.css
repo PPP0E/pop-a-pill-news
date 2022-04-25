@@ -12,7 +12,21 @@ body {
 }
 
 .bgimage {
-    image: url("/img/sesu404-03.png");
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: colors 5s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .background {
@@ -42,8 +56,8 @@ body {
 
 .door {
     background: #fafafa;
-    width: 180px;
-    height: 150px;
+    width: 234px;
+    height: 195px;
     overflow: hidden;
     margin: 2px;
     outline-radius: 8px;
@@ -138,7 +152,7 @@ body {
 }
 
 .cover-container {
-    max-width: 21em;
+    max-width: 27.3em;
 }
 
 
@@ -166,4 +180,9 @@ body {
 .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
+}
+
+.image2 {
+    width: 390;
+    height: 585;
 }
