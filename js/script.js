@@ -1,7 +1,7 @@
 (function() {
     "use strict";
     let count = 0
-    const whatwewant = ["img/sesu404-1.png", "img/sesu404-2.png", "img/sesu404-1.png"]
+    const whatwewant = ["img/sesu404-01.png", "img/sesu404-02.png", "img/sesu404-01.png"]
     const items = [
         "/img/sesu9999-02.png",
         "/img/sesu9999-03.png",
