@@ -30,6 +30,14 @@
         }
     }
 
+    function sleep(milliseconds) {
+        const date = Date.now();
+        let currentDate = null;
+        do {
+            currentDate = Date.now();
+        } while (currentDate - date < milliseconds);
+    }
+
     function init(firstInit = true, groups = 1, duration = 1) {
         count = 0
         for (const door of doors) {
@@ -120,6 +128,8 @@
     function randomIntFromInterval(min, max) { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min)
     }
+
+
 
     init();
 })();
