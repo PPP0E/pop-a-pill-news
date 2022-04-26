@@ -184,6 +184,7 @@ h1 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50px 50px;
+    gap: 15px;
 }
 
 .grid:hover {
