@@ -1,6 +1,4 @@
 .boxes {
-    border: 2px;
-    border-radius: 2%;
-    border-color: aliceblue;
     text-align: left;
+    border: 2px solid black;
 }
