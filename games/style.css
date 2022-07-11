@@ -20,4 +20,14 @@ html {
     object-fit: cover;
     text-align: left;
     position: relative;
+    grid-column-start: 1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 15% auto auto;
+}
+
+.grid1 {
+    grid-column-start: ;
 }
