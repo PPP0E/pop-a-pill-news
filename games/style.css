@@ -6,7 +6,7 @@ html {
 .boxes {
     text-align: left;
     border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .centerdiv {
