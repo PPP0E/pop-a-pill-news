@@ -6,10 +6,11 @@ html {
 .boxes {
     text-align: left;
     border: 2px solid black;
-    width: 50%;
 }
 
 .centerdiv {
     text-align: center;
     vertical-align: middle;
+    min-width: 40%;
+    max-width: 90%;
 }
