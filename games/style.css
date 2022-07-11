@@ -11,7 +11,6 @@ html {
 .centerdiv {
     text-align: center;
     vertical-align: middle;
-    min-width: 40%;
-    max-width: 90%;
+    width: 90%;
     padding-left: 33%;
 }
