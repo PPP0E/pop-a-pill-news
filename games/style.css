@@ -1,3 +1,4 @@
 .boxes {
-    outline: 2px: #000000;
+    border: 2px;
+    border-radius: 2%;
 }
