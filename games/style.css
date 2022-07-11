@@ -17,6 +17,5 @@ html {
 }
 
 .images {
-    height: 30px;
-    
+    object-fit: cover;
 }
