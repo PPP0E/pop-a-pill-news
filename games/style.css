@@ -19,4 +19,5 @@ html {
 .images {
     object-fit: cover;
     text-align: left;
+    position: relative;
 }
