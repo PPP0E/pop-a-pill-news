@@ -3,18 +3,18 @@
     let count = 0
     const whatwewant = ["img/sesu9999-11.png", "img/sesu9999-12.png", "img/sesu9999-11.png", "img/sesu9999-14.png", "img/sesu9999-13.png", "img/sesu9999-14.png"]
     const items = [
-        "/img/sesu9999-02.png",
-        "/img/sesu9999-03.png",
-        "/img/sesu9999-04.png",
-        "/img/sesu9999-05.png",
-        "/img/sesu9999-06.png",
-        "/img/sesu9999-07.png",
-        "/img/sesu9999-08.png",
-        "/img/sesu9999-09.png",
-        "/img/sesu9999-10.png",
-        "/img/sesu9999-11.png",
-        "/img/sesu9999-12.png",
-        "/img/sesu9999-13.png"
+        "img/sesu9999-02.png",
+        "img/sesu9999-03.png",
+        "img/sesu9999-04.png",
+        "img/sesu9999-05.png",
+        "img/sesu9999-06.png",
+        "img/sesu9999-07.png",
+        "img/sesu9999-08.png",
+        "img/sesu9999-09.png",
+        "img/sesu9999-10.png",
+        "img/sesu9999-11.png",
+        "img/sesu9999-12.png",
+        "img/sesu9999-13.png"
     ];
     window.onload = function() {
         spin();
