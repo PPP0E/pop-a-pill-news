@@ -1,1427 +1,171 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title data-rh="true">The Pop A Pill Times - Breaking News, US News, World News and Videos</title>
-    <link data-rh="true" rel="shortcut icon" href="favicons/static-assets-favicon-d2483f10ef688e6f89e23806b9700298.ico">
-    <link data-rh="true" rel="apple-touch-icon" href="favicons/static-assets-apple-touch-icon-28865b72953380a40aa43318108876cb.png">
-    <link data-rh="true" rel="apple-touch-icon-precomposed" sizes="144&times;144" href="favicons/static-assets-ios-ipad-144x144-28865b72953380a40aa43318108876cb.png">
-    <link data-rh="true" rel="apple-touch-icon-precomposed" sizes="114&times;114" href="favicons/static-assets-ios-iphone-114x144-080e7ec6514fdc62bcbb7966d9b257d2.png">
-    <link data-rh="true" rel="apple-touch-icon-precomposed" href="favicons/static-assets-ios-default-homescreen-57x57-43808a4cd5333b648057a01624d84960.png">
-    <link href="https://g1.nyt.com/fonts/css/web-fonts.b1c035e4560e0216caf8f03326e0430712b61041.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/static-assets-global-a390e9d7a067927dd253742a2f0124d4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <style>
-        [data-timezone] {
-            display: none
+        html {
+            height: 100%;
+            width: 100%;
+            align-items: center;
+
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        h4 {
+            color: rgb(0, 0, 0);
+            font-size: 80%;
+        }
+
+        .box {
+            border-radius: 30px;
+            background-color: rgb(200, 200, 200);
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            }
+
+        .box:hover {
+            background-color: rgb(100, 100, 100);
+        }
+
+        .boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 30%;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            text-align: center;
+            width: 100%;
+            height: 95%;
+
+        }
+
+        .image {
+            margin-top: 24px;
+            margin-bottom: 24px;
+            border-radius: 15px;
+            border: 2px solid red;
+            box-shadow: 5px 5px 5px rgb(57, 57, 57);
+        }
+
+        .image:hover {
+            box-shadow: 10px 10px 10px rgb(57, 57, 57);
+        }
+
+        .imageframe {
+            height: 150px;
+            width: 150px;
+        }
+
+        .textbox {
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: left;
+            width: 220px;
+        }
+
+        .play {
+            background-color: aquamarine;
+            height: 40px;
+            width: 60px;
+            border-radius: 0px 30px 0px 15px;
+            text-align: center;
+        }
+
+        .play:hover {
+            background-color: rgb(0, 179, 0);
+
+        }
+
+        .playbtn {
+            border: none;
+            background-color: transparent;
+            min-width: 45px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
         }
     </style>
-    <script async src="js/static-assets-adslot-8ee53c8db5b6dfbf9c8b.js"></script>
-    <script async="true" src="js/js-chartbeat_mab.js"></script>
-
 </head>
 
-<body>
-    <div id="app">
-        <div class="css-1ichrj1 e1xxpj0j0"></div>
+<body class="h-100 text-center text-white bg-dark">
+    <div>
         <div>
-            <div class="NYTAppHideMasthead css-1r6wvpq e1m0pzr40">
-                <header class="css-ahe4g0 e1m0pzr41">
 
-                    <div>
-                        <div class="css-1ts4sjb e1pjtsj60"></div>
-                        <div class="css-bfvq22 e1pjtsj62"><a href="todayspaper.html" class="css-hnzl8o">Today&rsquo;s Paper</a></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="imageframe">
+                        <a href="/games/deconstruct/">
+                            <img class="image" src="/games/deconstruct/images/imessage.jpg" height="100px">
+                        </a>
                     </div>
-                    <div id="masthead-bar-one-widgets" class="css-103zufb">
-                        <div class="css-i1s3vq e1pjtsj61"></div>
-                        <div class="css-77hcv e55wwux2"></div>
+                    <div class="textbox">
+                        <h3>Deconstruct</h3>
+                        <h4>A little puzzle game to mix water up.</h4>
                     </div>
-                    <div class="css-9e9ivx">
-                        <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&amp;client_id=vi&amp;redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7JFJX&amp;asset=masthead" data-testid="login-link" class="css-1k0lris"></a>
-                    </div>
-                    </section>
-                    <div class="css-stscvm">
-                        <div data-testid="masthead-desktop-logo" class="css-158f1cv">
-                            <a href="www.nytimes.html" aria-label="The New York Times" class="css-1q2j1fr eoab3xr0"><img src="/images/logo.png" alt=""></a>
-                            </span>
-                            <br>
+                    <a href="/games/deconstruct/">
+                        <div class="play">
+                            <button class="playbtn">
+                                play
+                            </button>
                         </div>
-                    </div>
-                    <div data-testid="masthead-mini-nav" class="css-umysuv">
-                        <ul data-testid="mini-nav" class="css-82iers">
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="world.html">Mental Health</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="us.html">Personal</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="politics.html">Videos</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="nyregion.html">Suicide</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="business.html">Chaos</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="opinion.html">Depression</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="technology.html">Identity</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="science.html">Self</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="health.html">Expression</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="sports.html">Empathy</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="arts.html">Therapy</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="books.html">Addiction</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="style.html">Coping</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="food.html">Pressure</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="travel.html">Drugs</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="magazine.html">Experience</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="t-magazine.html">Age</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="realestate.html">Crisis</a></li>
-                            <li data-testid="mini-nav-item" class="css-cwdrld"><a class="css-1wjnrbv" href="video.html">Abuse</a></li>
-                        </ul>
-                    </div>
-                </header>
-            </div>
-        </div>
-        <div aria-hidden="false">
-            <main id="site-content">
-                <div class="css-w613gg eu3y8st0">
-                    <div data-hierarchy="feed">
-                        <div class="css-17tuifc e1ppw5w20">
-                            <div data-hierarchy="container">
-                                <div data-hierarchy="zone">
-                                    <div class="css-nvwbfh e1ppw5w20">
-                                        <div class="css-17tuifc e1ppw5w20">
-                                            <div class="story-wrapper css-1v9egxt">
-                                                <div class="css-79elbk">
-                                                    <a class="css-9mylee" href="ukraine-russia-war-donbas.html" data-uri="nyt://legacycollection/30450a08-4689-59ab-bc43-36f699143411" data-story="nyt://legacycollection/30450a08-4689-59ab-bc43-36f699143411" aria-hidden="false">
-                                                        <h3 class="indicate-hover css-1pjbq1w"><span>Ukraine&rsquo;s Allies Race to Deliver More Advanced Weapons</span></h3>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="css-m5ahyg">
-                                                <div span="20" class="css-zqiqm1 e17qa79g0">
-                                                    <div class="css-m5ahyg">
-                                                        <div span="5" class="css-di02p9 e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-tlxejj">
-                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="ukraine-russia-war-donbas.html" data-uri="nyt://legacycollection/30450a08-4689-59ab-bc43-36f699143411" data-story="nyt://legacycollection/30450a08-4689-59ab-bc43-36f699143411" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h5 class="css-xhmbs">LIVE</h5>
-                                                                                        <h3 class="indicate-hover css-vf1hbp">Effort Comes as Russian Forces Embark on New Phase of War</h3>
-                                                                                    </div>
-                                                                                    <div class="css-197v62q"></div>
-                                                                                    <ul class="css-ypax4q">
-                                                                                        <li class="summary-class">President Biden will send weapons that Ukraine&rsquo;s president has long asked for to defend against an escalating Russian offensive in the east.</li>
-                                                                                        <li class="summary-class">Russia&rsquo;s latest campaign is expected to be more methodical than its initial push in the north, which relied on speed and was ultimately unsuccessful.</li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="css-tlxejj">
-                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="us-ukraine-weaponry.html" data-uri="nyt://article/d77925a8-3ed3-51bc-ac6f-a15440d3e5db" data-story="nyt://article/d77925a8-3ed3-51bc-ac6f-a15440d3e5db" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">The U.S. military aid strategy for Ukraine comes with a notable risk.</h3>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div span="9" class="css-1e7omub e17qa79g0">
-                                                            <figure class="css-1uk1gs8">
-                                                                <div>
-                                                                    <div class="container-size-medium">
-                                                                        <section id="live-homepage-promo-1" data-id="100000008013220" data-source-id="100000008013220" class="css-l08pwh interactive-content interactive-size-medium">
-                                                                            <div class="css-17ih8de interactive-body" data-sourceid="100000008013220">
-                                                                                <script>
-                                                                                    window.registerInteractive && window.registerInteractive("100000008013220");
-                                                                                </script>
-                                                                                <div data-rir-component-id="LiveHPPromo" data-rir-instance-id="8/wdzvENBW4tcQ3p2CZIp8Y+DeQ=">
-                                                                                    <style data-lights-css="2v91n 1f0dekh 1drmp8i 10iipni dwrnad cssveg j9bv78 n11qnm">
-                                                                                        .css-2v91n {
-                                                                                            position: absolute;
-                                                                                            top: 0;
-                                                                                            left: 0;
-                                                                                            opacity: 0;
-                                                                                            -webkit-transition: opacity 1s;
-                                                                                            transition: opacity 1s;
-                                                                                        }
-                                                                                        
-                                                                                        .css-1f0dekh {
-                                                                                            position: absolute;
-                                                                                            top: 10px;
-                                                                                            left: 10px;
-                                                                                        }
-                                                                                        
-                                                                                        .css-1drmp8i {
-                                                                                            z-index: 21;
-                                                                                            font-family: nyt-franklin, helvetica, arial, sans-serif;
-                                                                                            font-weight: 700;
-                                                                                            color: #fff;
-                                                                                            font-size: 16px;
-                                                                                            -webkit-letter-spacing: 0.02em;
-                                                                                            -moz-letter-spacing: 0.02em;
-                                                                                            -ms-letter-spacing: 0.02em;
-                                                                                            letter-spacing: 0.02em;
-                                                                                            text-shadow: 0px 0px 10px rgb(0 0 0 / 25%), 1px 1px 1px rgb(0 0 0 / 35%), -1px -1px 1px rgb(0 0 0 / 35%);
-                                                                                        }
-                                                                                        
-                                                                                        @media screen and (min-width:800px) {
-                                                                                            .css-1drmp8i {
-                                                                                                font-size: 18px;
-                                                                                            }
-                                                                                        }
-                                                                                        
-                                                                                        .css-10iipni {
-                                                                                            position: absolute;
-                                                                                            bottom: 10px;
-                                                                                            left: 10px;
-                                                                                            font-family: nyt-franklin, helvetica, arial, sans-serif;
-                                                                                            font-weight: 500;
-                                                                                            font-size: 11px;
-                                                                                            color: #fff;
-                                                                                            text-shadow: 0px 0px 10px rgb(0 0 0 / 25%), 1px 1px 1px rgb(0 0 0 / 35%), -1px -1px 1px rgb(0 0 0 / 35%);
-                                                                                        }
-                                                                                        
-                                                                                        .css-dwrnad {
-                                                                                            position: relative;
-                                                                                            background-color: #000;
-                                                                                            padding-bottom: 100%;
-                                                                                        }
-                                                                                        
-                                                                                        @media (min-width:600px) {
-                                                                                            .css-dwrnad {
-                                                                                                padding-bottom: 66.6666666666666%;
-                                                                                            }
-                                                                                        }
-                                                                                        
-                                                                                        .css-cssveg {
-                                                                                            position: relative;
-                                                                                        }
-                                                                                        
-                                                                                        .css-j9bv78 {
-                                                                                            max-width: calc(100% - 40px);
-                                                                                            padding-top: 10px;
-                                                                                            margin: 0 auto;
-                                                                                            color: #333;
-                                                                                        }
-                                                                                        
-                                                                                        .interactive-body .css-j9bv78 a {
-                                                                                            color: #333;
-                                                                                        }
-                                                                                        
-                                                                                        @media (min-width:600px) {
-                                                                                            .css-j9bv78 {
-                                                                                                max-width: 1000px;
-                                                                                                padding-top: 0;
-                                                                                            }
-                                                                                        }
-                                                                                        
-                                                                                        .css-n11qnm {
-                                                                                            position: absolute;
-                                                                                            top: 0;
-                                                                                            left: 0;
-                                                                                            opacity: 0;
-                                                                                            -webkit-transition: opacity 1s;
-                                                                                            transition: opacity 1s;
-                                                                                            opacity: 1;
-                                                                                        }
-                                                                                    </style>
-                                                                                    <div class="css-j9bv78" data-reactroot="">
-                                                                                        <a href="ukraine-russia-war-donbas.html">
-                                                                                            <div class="css-cssveg">
-                                                                                                <div class="css-dwrnad">
-                                                                                                    <div class="css-n11qnm">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Kharkiv, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/lens/19ukraine-hp-fader-01/19ukraine-hp-fader-01-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukraine-hp-fader-01-merlin_205672974_29632833-f941-4c47-935f-848a997cbacb-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Tyler Hicks/The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Kharkiv, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/multimedia/19ukrainefader-01/merlin_205672920_0e0f5399-4dac-4ea0-baa2-0782d1c16623-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukrainefader-01-merlin_205672920_0e0f5399-4dac-4ea0-baa2-0782d1c16623-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Tyler Hicks/The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Horenka, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/05/18/multimedia/18ukrainefader-06/merlin_205675245_7ae84cc5-67ca-4fd6-ac84-3a76dfd0d845-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/18ukrainefader-06-merlin_205675245_7ae84cc5-67ca-4fd6-ac84-3a76dfd0d845-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">David Guttenfelder for The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Dnipro, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/multimedia/19ukrainefader-08/merlin_205677054_bee773b1-8f31-49ea-be2f-7859634bbd1a-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukrainefader-08-merlin_205677054_bee773b1-8f31-49ea-be2f-7859634bbd1a-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Lynsey Addario for The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Horenka, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/multimedia/19ukrainefader-03/merlin_205674363_8900da78-457e-492a-8d70-3a92515fe043-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukrainefader-03-merlin_205674363_8900da78-457e-492a-8d70-3a92515fe043-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">David Guttenfelder for The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Kharkiv, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/05/18/multimedia/18ukrainefader--05/18ukrainefader--05-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/18ukrainefader--05-18ukrainefader--05-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Tyler Hicks/The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Irpin, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/05/18/multimedia/18ukrainefader--04/18ukrainefader--04-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/18ukrainefader--04-18ukrainefader--04-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Gleb Garanich/Reuters</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Horenka, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/multimedia/19ukrainefader-09/merlin_205677984_f2556f78-ed13-4e0a-a65a-9e62e3a48e83-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukrainefader-09-merlin_205677984_f2556f78-ed13-4e0a-a65a-9e62e3a48e83-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">David Guttenfelder for The New York Times</div>
-                                                                                                    </div>
-                                                                                                    <div class="css-2v91n">
-                                                                                                        <div class="css-1f0dekh">
-                                                                                                            <div class="css-1drmp8i">Dnipro, Ukraine</div>
-                                                                                                        </div>
-                                                                                                        <picture>
-                                                                                                            <source srcset="https://static01.nyt.com/images/2022/04/19/multimedia/19ukrainefader-10/merlin_205677750_0cd8f45b-3c11-4d31-83af-ec5b2acb1b2f-mediumSquareAt3X.jpg" media="(max-width: 600px)"><img src="images/19ukrainefader-10-merlin_205677750_0cd8f45b-3c11-4d31-83af-ec5b2acb1b2f-threeByTwoMediumAt2X.jpg"></source>
-                                                                                                        </picture>
-                                                                                                        <div class="css-10iipni">Lynsey Addario for The New York Times</div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <script defer src="js/05d5a18a4d989d0cdd974c4e50feccf279db5066-LiveHPPromo.js"></script>
-                                                                            </div>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                        <div span="6" class="css-1rlghcl e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-b6n3ve">
-                                                                    <div span="6" class="css-1rlghcl e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="mariupol-azovstal-steel-plant.html" data-uri="nyt://article/8d416173-a784-59e7-b879-e910d60061c0" data-story="nyt://article/8d416173-a784-59e7-b879-e910d60061c0" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1pvrrwb">Despair in Mariupol&rsquo;s Last Stronghold: &lsquo;They&rsquo;re Bombing Us With Everything&rsquo;</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">The Times spoke with the last Ukrainian defenders in the port city as thousands of soldiers and civilians sheltered in a Soviet-era steel mill.</p>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="css-b6n3ve">
-                                                                    <div span="6" class="css-1rlghcl e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="wimbledon-ban-russia-belarus-players.html" data-uri="nyt://article/2d18ca60-72dc-56ad-ab60-a0711efde161" data-story="nyt://article/2d18ca60-72dc-56ad-ab60-a0711efde161" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Wimbledon plans to bar tennis players from Russia and Belarus from competing in this year&rsquo;s tournament.</h3>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="css-1cobohp e1ppw5w20">
-                            <div class="css-m5ahyg">
-                                <div span="14" class="css-1diumef e17qa79g0">
-                                    <div class="css-1dngl6i">
-                                        <div data-hierarchy="zone">
-                                            <div class="css-14hmr3u e1ppw5w20">
-                                                <div class="css-17sdgpd e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="5" class="css-di02p9 e17qa79g0">
-                                                                        <div class="css-14awx2t e1yccyp20">
-                                                                            <section class="story-wrapper">
-                                                                                <a class="css-9mylee" href="covid-masks-planes.html" data-uri="nyt://article/c6b7f1b4-b7fc-51a4-aaa2-65f4f24729ef" data-story="nyt://article/c6b7f1b4-b7fc-51a4-aaa2-65f4f24729ef" aria-hidden="false">
-                                                                                    <div>
-                                                                                        <div class="css-xdandi">
-                                                                                            <h3 class="indicate-hover css-1pvrrwb">With Joy and Fear, Americans Watch Sweeping Mask Rules Vanish</h3>
-                                                                                        </div>
-                                                                                        <div class="css-j4dysj"></div>
-                                                                                        <p class="summary-class css-9lwb1u">Many travelers removed their masks after the mandate came to an end. Health experts voiced concern, but President Biden said it was now up to individuals.</p>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </section>
-                                                                            <section class="story-wrapper">
-                                                                                <a class="css-9mylee" href="biden-mask-mandate-appeal.html" data-uri="nyt://article/50eb9fe1-b19e-59d5-ba30-eb1954d3343e" data-story="nyt://article/50eb9fe1-b19e-59d5-ba30-eb1954d3343e" aria-hidden="false">
-                                                                                    <div>
-                                                                                        <div class="css-xdandi">
-                                                                                            <h3 class="indicate-hover css-1pvrrwb">Biden Administration May Appeal Ruling That Voided Travel Mask Mandate</h3>
-                                                                                        </div>
-                                                                                        <div class="css-j4dysj"></div>
-                                                                                        <p class="summary-class css-9lwb1u">If the C.D.C. decides there is a public health basis for trying to reinstate the mask mandate, the Justice Department will swiftly file an appeal.</p>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div span="9" class="css-1e7omub e17qa79g0">
-                                                                        <figure class="css-1uk1gs8">
-                                                                            <a class="css-9mylee" href="covid-masks-planes.html" data-uri="nyt://article/c6b7f1b4-b7fc-51a4-aaa2-65f4f24729ef" aria-hidden="true">
-                                                                                <div>
-                                                                                    <div class="css-9wa3va">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="Passengers in Chicago on Tuesday, a day after a judge lifted a federal mask mandate on public transit." loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                    </div>
-                                                                                    <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Jamie Kelter Davis for The New York Times</span></figcaption>
-                                                                                </div>
-                                                                            </a>
-                                                                        </figure>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="7" class="css-1jjcmts e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="mask-mandate-travel-transit.html" data-uri="nyt://article/124c6a61-137e-5920-93d6-5cf70b943968" data-story="nyt://article/124c6a61-137e-5920-93d6-5cf70b943968" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">For airlines, the mask mandate couldn&rsquo;t end soon enough. But some travelers are worried about what comes next.</h3>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                    <div span="7" class="css-1jjcmts e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="covid-masks-protection-stats.html" data-uri="nyt://article/24a191e8-146d-5e31-b758-c21ce61ef11a" data-story="nyt://article/24a191e8-146d-5e31-b758-c21ce61ef11a" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Does a mask protect you against Covid-19 if others aren&rsquo;t wearing one? This is what the evidence shows.</h3>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="css-vmhjt9 e1ppw5w20">
-                                                    <div>
-                                                        <section>
-                                                            <section class="story-wrapper">
-                                                                <figure class="css-1uk1gs8">
-                                                                    <div>
-                                                                        <div class="container-size-large">
-                                                                            <section id="embeds-top-stories-dashboard" data-id="100000007657142" data-source-id="100000007657142" class="css-l08pwh interactive-content interactive-size-medium">
-                                                                                <div class="css-17ih8de interactive-body" data-sourceid="100000007657142">
-                                                                                    <script>
-                                                                                        window.registerInteractive && window.registerInteractive("100000007657142");
-                                                                                    </script>
-
-
-
-
-
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/start-fc4800e0.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/vendor-7892ff5a.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/preload-helper-11d3297a.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/singletons-12a22614.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/paths-6758d194.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/pages/__layout.svelte-e0bbe5f9.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/env-984c559a.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/index-a68eb103.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/index-844f9dd9.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/pages/embeds/%5Btype%5D-dashboard/index.html.svelte-06e96684.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/decompress-6de7acb8.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/dates-4776f847.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/string-48c9507f.js">
-                                                                                    <link rel="modulepreload" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/godzown-47666b0c.js">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/start-61d1577b.css">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/pages/__layout.svelte-abacbfd7.css">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/NewsletterSubscription.svelte_svelte&amp;type=style&amp;lang-79f51ae7.css">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/index-b19a7dbe.css">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/index-de846223.css">
-                                                                                    <link rel="stylesheet" href="https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/pages/embeds/%5Btype%5D-dashboard/index.html.svelte-7a9c6745.css">
-
-                                                                                    <script type="module">
-                                                                                        import { start } from "https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/start-fc4800e0.js"; const target = document.querySelector('#svelte-1rl062s'); target.removeAttribute('id'); start({ target, paths: {"base":"/interactive/2021","assets":"https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking"},
-                                                                                        session: {}, host: location.host, route: false, spa: false, trailing_slash: "never", hydrate: { status: 200, error: null, nodes: [ import("https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/pages/__layout.svelte-e0bbe5f9.js"),
-                                                                                        import("https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/pages/embeds/[type]-dashboard/index.html.svelte-06e96684.js") ], page: { host: location.host,
-                                                                                        // TODO this is redundant path: "\u002Fembeds\u002Ftop-stories-dashboard.html", query: new URLSearchParams(""), params: {type:"top-stories"} } } });
-                                                                                    </script>
-
-                                                                                    <script type="text/plain" data-attr="nyt-asset-manifest">{"css":["https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/start-61d1577b.css","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/pages/__layout.svelte-abacbfd7.css","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/NewsletterSubscription.svelte_svelte&type=style&lang-79f51ae7.css","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/index-b19a7dbe.css","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/index-de846223.css","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/assets/pages/embeds/[type]-dashboard/index.html.svelte-7a9c6745.css"],"images":["https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/images/svg/timeseries/USA/USA-cases-two-weeks.svg","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/images/svg/timeseries/USA/USA-deaths-two-weeks.svg","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/images/maps/USA/hotspots-state.png","https://static01.nytimes.com/newsgraphics/2020/12/09/vaccine-distribution-tracker/assets/scoop-vaccine-distribution-tracker-threeByTwoSmallAt2X.png","https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/images/maps/NYT-World/hotspots.png"]}</script>
-                                                                                    <!-- publish_time: Wed Apr 20 2022 03:57:56 GMT+0000 (Coordinated Universal Time) -->
-
-                                                                                    <div id="svelte-1rl062s" class="covid-tracker-wrapper">
-
-
-
-                                                                                        <div id="embeds/top-stories-dashboard" data-prd-dropzone-below-masthead="100000006938224" data-preview-slug="embeds/top-stories-dashboard" style="max-width: 1200px; margin: auto;">
-
-                                                                                            <div class="dashboard dashboard-top-stories svelte-1aj34yr" style="max-width: 1200px; margin: auto;">
-                                                                                                <h2 class="svelte-1aj34yr"><a href="covid-cases.html" class="svelte-1aj34yr">Tracking the Coronavirus &rsaquo;</a></h2>
-
-                                                                                                <div class="g-grid-covid usa svelte-1aj34yr" style="grid-template-columns: 2.2fr 2fr 1fr">
-                                                                                                    <section class="trend-wrapper svelte-1aj34yr"><a class="locale svelte-1aj34yr" href="covid-cases.html"><strong class="svelte-qruyb0">United States&nbsp;&rsaquo;</strong>
-
-</a>
-                                                                                                        <table class="trends top-stories svelte-qruyb0">
-                                                                                                            <thead>
-                                                                                                                <tr>
-                                                                                                                    <th scope="col" class="label svelte-qruyb0  usa"><strong class="svelte-qruyb0">United States&nbsp;&rsaquo;</strong></th>
-                                                                                                                    <th scope="col" class="value svelte-qruyb0"><strong class="svelte-qruyb0">United States</strong><span aria-label="Average on Apr. 19">Avg. on Apr. 19</span></th>
-                                                                                                                    <th scope="col" class="change svelte-qruyb0" colspan="2">14-day change</th>
-                                                                                                                </tr>
-                                                                                                            </thead>
-
-                                                                                                            <tbody class="svelte-qruyb0">
-                                                                                                                <tr class="cases svelte-qruyb0">
-                                                                                                                    <td role="rowheader" class="label new-cases svelte-qruyb0">New&nbsp;cases</td>
-                                                                                                                    <td class="value svelte-qruyb0">41,989<span class="svelte-qruyb0"></span></td>
-                                                                                                                    <td class="change svelte-qruyb0" aria-label="+47%">+47%</td>
-                                                                                                                    <td class="trend svelte-qruyb0" aria-hidden="true"><img src="images/USA-USA-cases-two-weeks.svg" class="svelte-qruyb0"></td>
-                                                                                                                </tr>
-
-                                                                                                                <tr class="deaths svelte-qruyb0">
-                                                                                                                    <td role="rowheader" class="label new-deaths svelte-qruyb0">New&nbsp;deaths</td>
-                                                                                                                    <td class="value svelte-qruyb0">410<span class="svelte-qruyb0"></span></td>
-                                                                                                                    <td class="change svelte-qruyb0" aria-label="-32%">&ndash;32%</td>
-                                                                                                                    <td class="trend svelte-qruyb0" aria-hidden="true"><img src="images/USA-USA-deaths-two-weeks.svg" class="svelte-qruyb0"></td>
-                                                                                                                </tr>
-                                                                                                            </tbody>
-                                                                                                        </table>
-
-
-
-
-
-                                                                                                    </section>
-
-
-
-
-                                                                                                    <section class="svelte-1aj34yr">
-                                                                                                        <div class="maps top-stories svelte-1igofrs">
-                                                                                                            <a href="covid-cases.html" class="us-map-link svelte-1igofrs">
-                                                                                                                <div class="imgbox svelte-1igofrs">
-                                                                                                                    <h3 class="svelte-1igofrs">U.S. hot spots &rsaquo;</h3>
-                                                                                                                    <img alt="US coronavirus cases" src="images/USA-hotspots-state.png" loading="lazy" class="svelte-1igofrs"></div>
-                                                                                                            </a>
-                                                                                                            <a href="covid-19-vaccine-doses.html" class="us-vaccinations-link svelte-1igofrs">
-                                                                                                                <div class="imgbox svelte-1igofrs">
-                                                                                                                    <h3 class="svelte-1igofrs">Vaccinations &rsaquo;</h3>
-                                                                                                                    <img alt="Where states are reporting vaccines given" src="images/assets-scoop-vaccine-distribution-tracker-threeByTwoSmallAt2X.png" loading="lazy" class="svelte-1igofrs"></div>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </section>
-                                                                                                    <section class="svelte-1aj34yr">
-                                                                                                        <div class="maps top-stories svelte-1igofrs">
-                                                                                                            <a href="covid-cases.html" class="world-map-link world-hotspots-map svelte-1igofrs">
-                                                                                                                <div class="imgbox svelte-1igofrs">
-                                                                                                                    <h3 class="svelte-1igofrs">Global hot spots &rsaquo;</h3>
-                                                                                                                    <img alt="Global coronavirus cases" src="images/NYT-World-hotspots.png" loading="lazy" class="svelte-1igofrs"></div>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </section>
-
-
-                                                                                                    <div class="more-trackers top-stories svelte-1j6zaai">
-                                                                                                        <div class="mobile svelte-1j6zaai">
-                                                                                                            <h3 class="svelte-1j6zaai"><strong class="svelte-1j6zaai">Cases rising fastest</strong></h3>
-                                                                                                            <ul class="top-states-list svelte-1j6zaai">
-                                                                                                                <li class="svelte-1j6zaai"><a href="puerto-rico-covid-cases.html" class="svelte-1j6zaai">P.R.</a></li>
-                                                                                                                <li class="svelte-1j6zaai"><a href="washington-district-of-columbia-covid-cases.html" class="svelte-1j6zaai">D.C.</a></li>
-                                                                                                                <li class="svelte-1j6zaai"><a href="michigan-covid-cases.html" class="svelte-1j6zaai">Mich.</a></li>
-                                                                                                                <li class="svelte-1j6zaai"><a href="kansas-covid-cases.html" class="svelte-1j6zaai">Kan.</a></li>
-                                                                                                            </ul>
-                                                                                                            <ul class="svelte-1j6zaai">
-                                                                                                                <li class="svelte-1j6zaai"><a href="covid-cases-deaths-tracker.html" class="svelte-1j6zaai">County lookup</a></li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div class="desktop svelte-1j6zaai">
-                                                                                                            <div class="top-states-group svelte-1j6zaai">
-                                                                                                                <h3 class="svelte-1j6zaai"><strong class="svelte-1j6zaai">Cases rising fastest</strong></h3>
-                                                                                                                <ul class="svelte-1j6zaai">
-                                                                                                                    <li class="svelte-1j6zaai"><a href="puerto-rico-covid-cases.html" class="svelte-1j6zaai">P.R.</a></li>
-                                                                                                                    <li class="svelte-1j6zaai"><a href="washington-district-of-columbia-covid-cases.html" class="svelte-1j6zaai">D.C.</a></li>
-                                                                                                                    <li class="svelte-1j6zaai"><a href="michigan-covid-cases.html" class="svelte-1j6zaai">Mich.</a></li>
-                                                                                                                    <li class="svelte-1j6zaai"><a href="kansas-covid-cases.html" class="svelte-1j6zaai">Kan.</a></li>
-                                                                                                                </ul>
-                                                                                                            </div>
-                                                                                                            <div class="top-states-group svelte-1j6zaai">
-                                                                                                                <h3 class="svelte-1j6zaai"><strong class="svelte-1j6zaai">Other trackers</strong></h3>
-                                                                                                                <ul class="svelte-1j6zaai">
-                                                                                                                    <li class="svelte-1j6zaai"><a href="covid-cases-deaths-tracker.html" class="svelte-1j6zaai">County lookup</a></li>
-                                                                                                                    <li class="svelte-1j6zaai"><a href="covid-vaccinations-tracker.html" class="svelte-1j6zaai">Global vaccinations</a></li>
-                                                                                                                </ul>
-                                                                                                            </div>
-
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                </figure>
-                                                            </section>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                                <div class="css-17sdgpd e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="14" class="css-1diumef e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="elon-musk-twitter.html" data-uri="nyt://article/7392183c-993d-5359-89f0-cfb0cc5a45c3" data-story="nyt://article/7392183c-993d-5359-89f0-cfb0cc5a45c3" aria-hidden="false">
-                                                                                <div class="css-1lvvmm">
-                                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                                        <section class="story-wrapper">
-                                                                                            <div>
-                                                                                                <div class="css-xdandi">
-                                                                                                    <h3 class="indicate-hover css-1pvrrwb">Elon Musk Races to Secure Financing for Twitter Bid</h3>
-                                                                                                </div>
-                                                                                                <div class="css-j4dysj"></div>
-                                                                                                <p class="summary-class css-9lwb1u">The world&rsquo;s richest man is trying to shore up debt financing, including potentially taking out a loan against his shares of Tesla, so he can buy Twitter.</p>
-                                                                                            </div>
-                                                                                        </section>
-                                                                                    </div>
-                                                                                    <div span="9" class="css-1e7omub e17qa79g0">
-                                                                                        <figure class="css-1uk1gs8">
-                                                                                            <div>
-                                                                                                <div class="css-9wa3va">
-                                                                                                    <picture class="css-cov0u6">
-                                                                                                        <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="Elon Musk, Tesla&rsquo;s chief executive, began accumulating Twitter shares in January and quickly amassed a 9.2 percent stake in the company."
-                                                                                                            loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                                </div>
-                                                                                                <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Susan Walsh/Associated Press</span></figcaption>
-                                                                                            </div>
-                                                                                        </figure>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="css-17tuifc e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="10" class="css-1tvtspk e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="joe-kahn-dean-baquet-new-york-times.html" data-uri="nyt://article/01f35c12-a21f-5133-be79-d1087a686c99" data-story="nyt://article/01f35c12-a21f-5133-be79-d1087a686c99" aria-hidden="false">
-                                                                                <div class="css-zwnkfg">
-                                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                                        <section class="story-wrapper">
-                                                                                            <div>
-                                                                                                <div class="css-xdandi">
-                                                                                                    <h3 class="indicate-hover css-1pvrrwb">Joe Kahn Is Named Executive Editor of The New York Times</h3>
-                                                                                                </div>
-                                                                                                <div class="css-j4dysj"></div>
-                                                                                                <p class="summary-class css-9lwb1u">Mr. Kahn, 57, who helped steer The New York Times into the digital era, will succeed Dean Baquet in the top newsroom job.</p>
-                                                                                            </div>
-                                                                                        </section>
-                                                                                    </div>
-                                                                                    <div span="5" class="css-gd99i5 e17qa79g0">
-                                                                                        <figure class="css-1uk1gs8">
-                                                                                            <div>
-                                                                                                <div class="css-9wa3va">
-                                                                                                    <picture class="css-cov0u6">
-                                                                                                        <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="Joseph F. Kahn, the managing editor of The New York Times, is expected to start his new role as executive editor in June."
-                                                                                                            loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                                </div>
-                                                                                                <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Celeste Sloman for The New York Times</span></figcaption>
-                                                                                            </div>
-                                                                                        </figure>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                    <div span="4" class="css-wtsiaw e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="joseph-kahn-new-york-times.html" data-uri="nyt://article/68d9570c-1f13-5d8c-b750-cc33e436770d" data-story="nyt://article/68d9570c-1f13-5d8c-b750-cc33e436770d" aria-hidden="false">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Joe Kahn has had a steady rise in journalism. It began with a decision to turn his focus to China.</h3>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="css-14hmr3u e1ppw5w20">
-                                                <div class="css-17sdgpd e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="14" class="css-1diumef e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="trump-jan-6-insurrection-act.html" data-uri="nyt://article/fe528c72-8fd9-5b74-b856-100cf1cbf1e9" data-story="nyt://article/fe528c72-8fd9-5b74-b856-100cf1cbf1e9" aria-hidden="false">
-                                                                                <div class="css-1lvvmm">
-                                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                                        <section class="story-wrapper">
-                                                                                            <div>
-                                                                                                <div class="css-xdandi">
-                                                                                                    <h3 class="indicate-hover css-1pvrrwb">Fearing a Jan. 6 Repeat, House Panel Considers Changes to Insurrection Act</h3>
-                                                                                                </div>
-                                                                                                <div class="css-j4dysj"></div>
-                                                                                                <p class="summary-class css-9lwb1u">The 1807 law allows a president to deploy American troops inside the U.S. to stop a rebellion. Lawmakers fear it could be abused by a future president.</p>
-                                                                                            </div>
-                                                                                        </section>
-                                                                                    </div>
-                                                                                    <div span="9" class="css-1e7omub e17qa79g0">
-                                                                                        <figure class="css-1uk1gs8">
-                                                                                            <div>
-                                                                                                <div class="css-9wa3va">
-                                                                                                    <picture class="css-cov0u6">
-                                                                                                        <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="National Guard troops were on hand in Tulsa, Okla., when President Donald J. Trump held a rally there in 2020. While Mr. Trump never invoked the Insurrection Act, he threatened to have the military crack down on crowds protesting the police killing of George Floyd."
-                                                                                                            loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                                </div>
-                                                                                                <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Erin Schaff/The New York Times</span></figcaption>
-                                                                                            </div>
-                                                                                        </figure>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="css-17sdgpd e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="14" class="css-1diumef e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="martial-simon-michelle-go-trial.html" data-uri="nyt://article/8a68ac3b-d439-52d6-bf5f-8672f5751177" data-story="nyt://article/8a68ac3b-d439-52d6-bf5f-8672f5751177" aria-hidden="false">
-                                                                                <div class="css-1lvvmm">
-                                                                                    <div span="5" class="css-1kyt8v5 e17qa79g0">
-                                                                                        <section class="story-wrapper">
-                                                                                            <div>
-                                                                                                <div class="css-xdandi">
-                                                                                                    <h3 class="indicate-hover css-1pvrrwb">Man Charged in Fatal Subway Push Deemed Unfit for Trial</h3>
-                                                                                                </div>
-                                                                                                <div class="css-j4dysj"></div>
-                                                                                                <p class="summary-class css-9lwb1u">Martial Simon will be committed to a locked psychiatric facility. He had bounced between hospitals and the streets for years.</p>
-                                                                                            </div>
-                                                                                        </section>
-                                                                                    </div>
-                                                                                    <div span="9" class="css-1e7omub e17qa79g0">
-                                                                                        <figure class="css-1uk1gs8">
-                                                                                            <div>
-                                                                                                <div class="css-9wa3va">
-                                                                                                    <picture class="css-cov0u6">
-                                                                                                        <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="People hold candles during a vigil in honor of Michelle Alyssa Go on Jan. 18." loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                                </div>
-                                                                                                <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Yuki Iwamura/Associated Press</span></figcaption>
-                                                                                            </div>
-                                                                                        </figure>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="css-17tuifc e1ppw5w20">
-                                                    <div class="css-1lvvmm">
-                                                        <div span="14" class="css-1diumef e17qa79g0">
-                                                            <div class="css-14awx2t e1yccyp20">
-                                                                <div class="css-1lvvmm">
-                                                                    <div span="14" class="css-1diumef e17qa79g0">
-                                                                        <section class="story-wrapper">
-                                                                            <a class="css-9mylee" href="tipping-gratuity-restaurants.html" data-uri="nyt://article/11848870-5936-5f84-a54e-74be234fcc1f" data-story="nyt://article/11848870-5936-5f84-a54e-74be234fcc1f" aria-hidden="false">
-                                                                                <div class="css-1lvvmm">
-                                                                                    <div span="9" class="css-zf42d6 e17qa79g0">
-                                                                                        <section class="story-wrapper">
-                                                                                            <div>
-                                                                                                <div class="css-xdandi">
-                                                                                                    <h3 class="indicate-hover css-s1dp1m">To Tip, or Not to Tip?</h3>
-                                                                                                </div>
-                                                                                                <div class="css-197v62q"></div>
-                                                                                                <p class="summary-class css-9lwb1u">Automated payment and the spread of tipping to every corner of food service have helped workers weather the pandemic. But some consumers feel overwhelmed.</p>
-                                                                                            </div>
-                                                                                        </section>
-                                                                                    </div>
-                                                                                    <div span="5" class="css-gd99i5 e17qa79g0">
-                                                                                        <figure class="css-1uk1gs8">
-                                                                                            <div>
-                                                                                                <div class="css-9wa3va">
-                                                                                                    <picture class="css-cov0u6">
-                                                                                                        <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                                </div>
-                                                                                                <figcaption class="css-1p5yz2j"><span class="css-bvgobc">Miriam Martincic</span></figcaption>
-                                                                                            </div>
-                                                                                        </figure>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </a>
-                                                                        </section>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div span="6" class="css-1tv55b9 e17qa79g0">
-                                    <div class="css-1dngl6i">
-                                        <div data-hierarchy="zone">
-                                            <div class="css-14hmr3u e1ppw5w20">
-                                                <div class="css-17sdgpd e1ppw5w20">
-                                                    <div class="css-15rwwo">
-                                                        <div class="package-title-wrapper css-1wd5atx">
-                                                            <a class="css-9mylee" href="opinion.html" data-uri="" aria-hidden="false">
-                                                                <div class="css-8bis0h">Opinion</div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="air-pollution-fossil-fuels.html" data-uri="nyt://article/670ed154-6801-5595-8f0b-c7a84c266893" data-story="nyt://article/670ed154-6801-5595-8f0b-c7a84c266893" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <div class="css-ofn1hu">
-                                                                        <div class="css-oqxt8c">
-                                                                            <picture class="css-79elbk">
-                                                                                <source media="screen and (min-width: 1px)"></source><img class="css-1ii2lp6" alt="Binyamin Appelbaum" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h3 class="css-141qz46">Binyamin Appelbaum</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">Enough About Climate Change. Air Pollution Is Killing Us Now.</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper css-szc2m3">
-                                                        <a class="css-rgq5s4" href="why-we-admire-zelensky.html" data-uri="nyt://article/f7ed5fb1-0722-5bf7-ab35-cd2a54c8b6f7" data-story="nyt://article/f7ed5fb1-0722-5bf7-ab35-cd2a54c8b6f7" aria-hidden="false">
-                                                            <div class="css-cephuo">
-                                                                <div span="3" class="css-4dgob3 e17qa79g0">
-                                                                    <figure class="css-1uk1gs8">
-                                                                        <div>
-                                                                            <div class="css-oqxt8c">
-                                                                                <picture class="css-cov0u6">
-                                                                                    <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                            </div>
-                                                                        </div>
-                                                                    </figure>
-                                                                </div>
-                                                            </div>
-                                                            <div class="css-0">
-                                                                <h3 class="css-141qz46">Bret Stephens</h3>
-                                                                <h3 class="indicate-hover css-1yxzums">Why We Admire Zelensky</h3>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="bmw-porsche-nazi-germany-quandt-flick.html" data-uri="nyt://article/4f63400b-8e5e-5922-8fc6-7dad000b9969" data-story="nyt://article/4f63400b-8e5e-5922-8fc6-7dad000b9969" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <h3 class="css-141qz46">David de Jong</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">They Are the Heirs of Nazi Fortunes, and They Aren&rsquo;t Apologizing</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="book-banning.html" data-uri="nyt://article/03e5809f-5db2-5c66-b20d-03c1234e09b5" data-story="nyt://article/03e5809f-5db2-5c66-b20d-03c1234e09b5" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <div class="css-ofn1hu">
-                                                                        <div class="css-oqxt8c">
-                                                                            <picture class="css-79elbk">
-                                                                                <source media="screen and (min-width: 1px)"></source><img class="css-1ii2lp6" alt="John McWhorter" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h3 class="css-141qz46">John McWhorter</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">The Right Likes Book Bans. That Fuels the Left&rsquo;s Cancel Culture.</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                </div>
-                                                <div class="css-17tuifc e1ppw5w20">
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="inflation-interest-rates-housing-mortgage-loan.html" data-uri="nyt://article/1914bdf5-3e51-5583-af17-04c422ea9288" data-story="nyt://article/1914bdf5-3e51-5583-af17-04c422ea9288" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <div class="css-ofn1hu">
-                                                                        <div class="css-oqxt8c">
-                                                                            <picture class="css-79elbk">
-                                                                                <source media="screen and (min-width: 1px)"></source><img class="css-1ii2lp6" alt="Paul Krugman" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h3 class="css-141qz46">Paul Krugman</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">Inflation, Interest and the Housing Paradox</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="covid-memorial-national-mall.html" data-uri="nyt://article/0cac747d-50e1-58e5-809b-d83721441c4c" data-story="nyt://article/0cac747d-50e1-58e5-809b-d83721441c4c" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <h3 class="css-141qz46">Jamie Meltzer</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">&lsquo;I Wish You Were Still Here&rsquo;: Remembering the Lives Lost to Covid</h3>
-                                                                </div>
-                                                            </div>
-                                                            <div class="css-197v62q"></div>
-                                                            <figure class="css-1uk1gs8">
-                                                                <div>
-                                                                    <div class="css-11kuxu4" style="width:100%;padding-bottom:56.25%;overflow:hidden">
-                                                                        <div class="css-122y91a"><img src="images/opdoc-standstill-alt-opdoc-standstill-alt-articleLarge.jpg" class="css-c7hxrg" alt="Cinemagraph"><video data-testid="cinemagraph" data-play="true" src="https://vp.nyt.com/video/2022/04/15/99983_1_19opdoc_wg_720p.mp4"
-                                                                                class="cinemagraph_video css-c7hxrg" muted="" loop="" autoplay="" playsinline=""></video></div>
-                                                                    </div>
-                                                                </div>
-                                                            </figure>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="jan-6-ted-cruz-mike-lee.html" data-uri="nyt://article/aa214095-81ee-5be3-abe4-c2ac43e18e52" data-story="nyt://article/aa214095-81ee-5be3-abe4-c2ac43e18e52" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <div class="css-ofn1hu">
-                                                                        <div class="css-oqxt8c">
-                                                                            <picture class="css-79elbk">
-                                                                                <source media="screen and (min-width: 1px)"></source><img class="css-1ii2lp6" alt="Jamelle Bouie" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h3 class="css-141qz46">Jamelle Bouie</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">Mike Lee and Ted Cruz Fought So That One Man Wouldn&rsquo;t Have to Face the Pain of Defeat</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section class="story-wrapper">
-                                                        <a class="css-rgq5s4" href="ezra-klein-podcast-anat-shenker-osorio-sean-mcelwee.html" data-uri="nyt://article/61d9cfa3-f8fd-51c6-8aa9-288a23823cb1" data-story="nyt://article/61d9cfa3-f8fd-51c6-8aa9-288a23823cb1" aria-hidden="false">
-                                                            <div>
-                                                                <div class="css-0">
-                                                                    <div class="css-ofn1hu">
-                                                                        <div class="css-oqxt8c">
-                                                                            <picture class="css-79elbk">
-                                                                                <source media="screen and (min-width: 1px)"></source><img class="css-1ii2lp6" alt="&lsquo;The Ezra Klein Show&rsquo;" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h3 class="css-141qz46">&lsquo;The Ezra Klein Show&rsquo;</h3>
-                                                                    <h3 class="indicate-hover css-1yxzums">Democratic Party Policies Are Popular. So Why Are Voters So Unimpressed?</h3>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section>
-                                                        <section class="css-1jke4yk" aria-label="More Stories">
-                                                            <div class="css-i6bazn">
-                                                                <div class="css-fyro28">
-                                                                    <div class="css-6w67yl" style="transform:translateX(0%)
-    translateX(0px)" role="tablist" aria-roledescription="carousel">
-                                                                        <div class="css-jsjvin">
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="school-book-bans-students.html" data-uri="nyt://article/b828dab4-d249-54ca-b135-02821ed54c26" data-story="nyt://article/b828dab4-d249-54ca-b135-02821ed54c26" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="indicate-hover css-1yykb3j">I&rsquo;m a High School Junior. Let&rsquo;s Talk About &lsquo;Huckleberry Finn&rsquo; and &lsquo;Mockingbird.&rsquo;</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="elizabeth-warren-democrats-biden-midterms.html" data-uri="nyt://article/6fe50242-07d2-5e55-87c6-e4cf452d5c8f" data-story="nyt://article/6fe50242-07d2-5e55-87c6-e4cf452d5c8f" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="indicate-hover css-1yykb3j">Elizabeth Warren: There&rsquo;s Only One Way Democrats Can Win in November</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="css-jsjvin">
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="china-russia-putin.html" data-uri="nyt://article/1eacf02a-d4a0-511a-91a0-eef6edef7933" data-story="nyt://article/1eacf02a-d4a0-511a-91a0-eef6edef7933" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="css-141qz46">Thomas L. Friedman</h3>
-                                                                                                <h3 class="indicate-hover css-1yykb3j">China and Russia Are Giving Authoritarianism a Bad Name</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="long-covid-cdc-fatigue.html" data-uri="nyt://article/812bad87-f8f7-57b7-82db-8b31cec5272f" data-story="nyt://article/812bad87-f8f7-57b7-82db-8b31cec5272f" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="css-141qz46">Peter Coy</h3>
-                                                                                                <h3 class="indicate-hover css-1yykb3j">Pushing &lsquo;Long Covid&rsquo; Sufferers Too Hard Could Cause Them to Crash</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="css-jsjvin">
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="books-death-grief-hope.html" data-uri="nyt://article/c3bd98bc-f051-5560-91f3-10e0cfdceae4" data-story="nyt://article/c3bd98bc-f051-5560-91f3-10e0cfdceae4" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="css-141qz46">Margaret Renkl</h3>
-                                                                                                <h3 class="indicate-hover css-1yykb3j">Sadness and Loss Are Everywhere. Books Can Help.</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="sway-kara-swisher-tony-kushner.html" data-uri="nyt://article/a79effc5-15ee-5372-9701-823a76bfc48f" data-story="nyt://article/a79effc5-15ee-5372-9701-823a76bfc48f" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="css-141qz46">&lsquo;Sway&rsquo;</h3>
-                                                                                                <h3 class="indicate-hover css-1yykb3j">Tony Kushner on the &lsquo;Fantasy&rsquo; of a Nation Controlled by &lsquo;Straight White Men&rsquo;</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="css-jsjvin">
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="inequality-race-elites.html" data-uri="nyt://article/be63b93e-ad28-5df8-91f6-20ba630225d5" data-story="nyt://article/be63b93e-ad28-5df8-91f6-20ba630225d5" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="css-141qz46">Jay Caspian Kang</h3>
-                                                                                                <h3 class="indicate-hover css-1yykb3j">How the Elites Monopolize Empathy</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                            <div class="css-1rr4qq7">
-                                                                                <section class="story-wrapper">
-                                                                                    <a class="css-rgq5s4" href="high-school-letters-competition.html" data-uri="nyt://article/67e23c76-06e0-5291-804c-3e721d4101f7" data-story="nyt://article/67e23c76-06e0-5291-804c-3e721d4101f7" aria-hidden="false">
-                                                                                        <div>
-                                                                                            <div class="css-0">
-                                                                                                <h3 class="indicate-hover css-1yykb3j">Attention, High Schoolers: We Want to Hear From You</h3>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </section>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div role="group">
-                                                                <div class="css-1xnr9ii"></div>
-                                                                <div class="css-1ahmolp"><button disabled type="button" aria-label="Previous" class="css-6gfk0j" tabindex="-1"><svg viewbox="0 0 26 26"><circle cx="13" cy="13" r="12.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle><path d="M10.3984 7.7998L15.5984 12.9998L10.3984 18.1998" stroke-width="1.5" fill="none"></path></svg></button>
-                                                                    <button type="button" aria-label="Next" class="css-1qle2ps" tabindex="-1"><svg viewbox="0 0 26 26"><circle cx="13" cy="13" r="12.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle><path d="M10.3984 7.7998L15.5984 12.9998L10.3984 18.1998" stroke-width="1.5" fill="none"></path></svg></button>
-                                                                </div>
-                                                            </div>
-                                                        </section>
-                                                    </section>
-                                                </div>
-                                            </div>
-                                            <div class="css-14hmr3u e1ppw5w20">
-                                                <div class="css-17tuifc e1ppw5w20">
-                                                    <section class="story-wrapper">
-                                                        <a class="css-9mylee" href="jerrod-carmichael-hbo-rothaniel.html" data-uri="nyt://article/6fee7945-3556-54a0-ae9b-d98e4eb00b55" data-story="nyt://article/6fee7945-3556-54a0-ae9b-d98e4eb00b55" aria-hidden="false">
-                                                            <figure class="css-1uk1gs8">
-                                                                <div>
-                                                                    <div class="css-9wa3va">
-                                                                        <picture class="css-cov0u6">
-                                                                            <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="The comedian Jerrod Carmichael talks about the impact of family secrets in his HBO special &ldquo;Rothaniel.&rdquo;" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                    </div>
-                                                                    <figcaption class="css-1p5yz2j"><span class="css-bvgobc">HBO</span></figcaption>
-                                                                </div>
-                                                            </figure>
-                                                            <div class="css-197v62q"></div>
-                                                            <div>
-                                                                <div class="css-xdandi">
-                                                                    <h3 class="indicate-hover css-s1dp1m">Jerrod Carmichael Knows How to Wear the Truth</h3>
-                                                                </div>
-                                                                <div class="css-197v62q"></div>
-                                                                <p class="summary-class css-9lwb1u">The comedian&rsquo;s new HBO special, which explores family secrets and sexual orientation, is as much a therapy session as a stand-up show, our critic writes.</p>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                    <div class="css-13htjwu"></div>
-                                                    <div class="css-1q6wtnm eb3be210"></div>
-                                                    <div class="css-13htjwu"></div>
-                                                    <section>
-                                                        <div class="css-jsjvin">
-                                                            <div class="css-1rr4qq7">
-                                                                <section class="story-wrapper">
-                                                                    <a class="css-9mylee" href="jennifer-grey-memoir-out-of-the-corner.html" data-uri="nyt://article/c1d1c5d2-6c3e-5d78-861f-6c38a1828bfb" data-story="nyt://article/c1d1c5d2-6c3e-5d78-861f-6c38a1828bfb" aria-hidden="false">
-                                                                        <figure class="css-1uk1gs8">
-                                                                            <div>
-                                                                                <div class="css-9wa3va">
-                                                                                    <picture class="css-cov0u6">
-                                                                                        <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                </div>
-                                                                            </div>
-                                                                        </figure>
-                                                                        <div class="css-197v62q"></div>
-                                                                        <div>
-                                                                            <div class="css-xdandi">
-                                                                                <h3 class="indicate-hover css-1yykb3j">Don&rsquo;t call her &ldquo;baby&rdquo;: At 62, Jennifer Grey is taking the lead.</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                </section>
-                                                            </div>
-                                                            <div class="css-1rr4qq7">
-                                                                <section class="story-wrapper">
-                                                                    <a class="css-9mylee" href="how-to-do-squats.html" data-uri="nyt://article/89018169-76c0-5321-b888-ef1a69b1753e" data-story="nyt://article/89018169-76c0-5321-b888-ef1a69b1753e" aria-hidden="false">
-                                                                        <figure class="css-1uk1gs8">
-                                                                            <div>
-                                                                                <div class="css-9wa3va">
-                                                                                    <picture class="css-cov0u6">
-                                                                                        <source class="css-hdqqnp" media="screen and (min-width: 601px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="images/https:-www.nytimes.com"></picture>
-                                                                                </div>
-                                                                            </div>
-                                                                        </figure>
-                                                                        <div class="css-197v62q"></div>
-                                                                        <div>
-                                                                            <div class="css-xdandi">
-                                                                                <h3 class="indicate-hover css-1yykb3j">The squat is the one exercise we all should be doing &mdash; but we need to do it right.</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                </section>
-                                                            </div>
-                                                        </div>
-                                                    </section>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="css-17tuifc e1ppw5w20">
-                        <div data-hierarchy="container">
-                            <div data-hierarchy="zone">
-                                <div class="css-ap8r2t e1ppw5w20">
-                                    <div class="css-1hkhtys e1ppw5w20">
-                                        <section>
-                                            <div class="css-15rwwo">
-                                                <div class="package-title-wrapper css-1wd5atx">
-                                                    <div class="css-8bis0h">Play</div>
-                                                </div>
-                                            </div>
-                                            <div class="css-j4dysj"></div>
-                                            <section class="css-1jke4yk">
-                                                <div class="css-i6bazn">
-                                                    <div class="css-prsex1">
-                                                        <div class="css-1bc1a9o" style="transform:translateX(0%)
-    translateX(0px)" role="tablist" aria-roledescription="carousel">
-                                                            <div class="css-jsjvin">
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="/games/popapill/" data-uri="nyt://promo/8788a6e9-0db1-5c7c-a8e8-d82c37ccfdd0" data-story="nyt://promo/8788a6e9-0db1-5c7c-a8e8-d82c37ccfdd0" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="" alt="" loading="lazy" src="/games/popapill/img/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Pop a Pill</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">Not having a good day? Pop a pill...</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="/games/mentaldle/" data-uri="nyt://promo/c526680a-46b9-5c63-8313-c3aefb0c2df3" data-story="nyt://promo/c526680a-46b9-5c63-8313-c3aefb0c2df3" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="/games/popapill/img/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Mentaldle</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">Guess the 5-letter mental word with 6 chances.</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="/games/deconstruct/" data-uri="nyt://promo/f7f1225d-6bba-5864-ad80-682122a9fbbf" data-story="nyt://promo/f7f1225d-6bba-5864-ad80-682122a9fbbf" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="css-oqxt8c">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="" alt="" loading="lazy" src="games/deconstruct/images/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Slide Su</h3>
-                                                                                    </div>
-                                                                                    <div class=""></div>
-                                                                                    <p class="summary-class css-9lwb1u">Mix and match Su to make her Su again.</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="games.html" data-uri="nyt://promo/65cfe541-193d-5197-9224-03f2d267cbb1" data-story="nyt://promo/65cfe541-193d-5197-9224-03f2d267cbb1" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="css-oqxt8c">
-                                                                                        <picture class="">
-                                                                                            <source class="" media="screen and (max-width: 600px)"></source><img class="" alt="" loading="lazy" src="/games/deconstruct/images/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">More Games</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">Check here for more award winning games...</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="css-i8t5h5">
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="letter-boxed.html" data-uri="nyt://promo/d1e103a6-9339-5a49-b15d-44883e243753" data-story="nyt://promo/d1e103a6-9339-5a49-b15d-44883e243753" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="css-oqxt8c">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="/games/deconstruct/images/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Letter Boxed</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">Create words using letters around the square.</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="css-ucmrs6 story-wrapper">
-                                                                    <a class="css-9mylee" href="tiles.html" data-uri="nyt://promo/3f11ff22-8e3d-5a35-aafa-f259336d0e0b" data-story="nyt://promo/3f11ff22-8e3d-5a35-aafa-f259336d0e0b" aria-hidden="false">
-                                                                        <div class="css-gcp1fy">
-                                                                            <figure class="css-1uk1gs8">
-                                                                                <div>
-                                                                                    <div class="css-oqxt8c">
-                                                                                        <picture class="">
-                                                                                            <source class="css-hdqqnp" media="screen and (max-width: 600px)"></source><img class="css-dzl7b5" alt="" loading="lazy" src="/games/deconstruct/images/imessage.jpg"></picture>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </figure>
-                                                                        </div>
-                                                                        <div class="css-79elbk">
-                                                                            <section class="story-wrapper">
-                                                                                <div>
-                                                                                    <div class="css-xdandi">
-                                                                                        <h3 class="indicate-hover css-1yykb3j">Tiles</h3>
-                                                                                    </div>
-                                                                                    <div class="css-j4dysj"></div>
-                                                                                    <p class="summary-class css-9lwb1u">Match visual elements and keep your chain going.</p>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div role="group">
-                                                    <div class="css-1387e0a"><button disabled type="button" aria-label="Previous" class="css-1956unn" tabindex="-1"><svg viewbox="0 0 26 26"><circle cx="13" cy="13" r="12.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle><path d="M10.3984 7.7998L15.5984 12.9998L10.3984 18.1998" stroke-width="1.5" fill="none"></path></svg></button>
-                                                        <button type="button" aria-label="Next" class="css-hcxxd0" tabindex="-1"><svg viewbox="0 0 26 26"><circle cx="13" cy="13" r="12.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle><path d="M10.3984 7.7998L15.5984 12.9998L10.3984 18.1998" stroke-width="1.5" fill="none"></path></svg></button>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div></div>
-        </div>
-        </main>
-        <div></div>
-        <footer class="css-1e1s8k7" role="contentinfo">
-            <nav data-testid="footer" class="css-15uy5yv">
-                <h2 class="css-1dv1kvn">Site Information Navigation</h2>
-                <ul class="css-1ho5u4o edvi3so0">
-                    <li data-testid="copyright"><a class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">&copy;&nbsp;<span>2022</span>&nbsp;<span>The New York Times Company</span></a></li>
-                </ul>
-                <ul class="css-13o0c9t edvi3so1">
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytco.com/">NYTCo</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us">Contact Us</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility">Accessibility</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytco.com/careers/">Work with us</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://nytmediakit.com/">Advertise</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.tbrandstudio.com/">T Brand Studio</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers">Your Ad Choices</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="privacy-policy.html">Privacy Policy</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service">Terms of Service</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="sitemap.html">Site Map</a></li>
-                    <li class="mobileOnly css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="?action=click&amp;region=Footer&amp;pgtype=Homepage.html">Canada</a></li>
-                    <li class="mobileOnly css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="?action=click&amp;region=Footer&amp;pgtype=Homepage.html">International</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us">Help</a></li>
-                    <li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="subscription?campaignId=37WXW.html">Subscriptions</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </div>
-    </div>
-    <script defer src="js/static-assets-vendor-e22d19e4128a4af60324.js"></script>
-    <script defer src="js/static-assets-home-ab6b80bec3947e09d9bf.js"></script>
-    <script defer src="js/static-assets-main-1195b698f66aa1643101.js"></script>
-
-
-    <script defer src="js/gtm.js"></script>
-    <noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P528B3&amp;gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&amp;gtm_preview=env-130&amp;gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
+                <br>
+                <div class="box">
+                    <div class="imageframe">
+                        <a href="/games/popapill/">
+                            <img class="image" src="/games/popapill/img/imessage.jpg" height="100px">
+                        </a>
+                    </div>
+                    <div class="textbox">
+                        <h3>Pop a Pill</h3>
+                        <h4>A little puzzle game to mix water up.</h4>
+                    </div>
+                    <a href="/games/popapill/">
+                        <div class="play">
+                            <button class="playbtn">
+                                play
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <br>
+                <div class="box">
+                    <div class="imageframe">
+                        <a href="/games/mentaldle/">
+                            <img class="image" src="/games/mentaldle/imessage.jpg" height="100px">
+                        </a>
+                    </div>
+                    <div class="textbox">
+                        <h3>Mentaldle</h3>
+                        <h4>A little puzzle game to mix water up.</h4>
+                    </div>
+                    <a href="/games/mentaldle/">
+                        <div class="play">
+                            <button class="playbtn">
+                                play
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <footer>
+                <p>By <a><strong>Şerife Su</strong></a></p>
+            </footer>
 </body>
 
 </html>

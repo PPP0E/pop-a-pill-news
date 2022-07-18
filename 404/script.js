@@ -1,20 +1,20 @@
 (function() {
     "use strict";
     let count = 0
-    const whatwewant = ["img/sesu404-01.png", "img/sesu404-02.png", "img/sesu404-01.png"]
+    const whatwewant = ["/404/img/sesu404-01.png", "/404/img/sesu404-02.png", "/404/img/sesu404-01.png"]
     const items = [
-        "/img/sesu9999-02.png",
-        "/img/sesu9999-03.png",
-        "/img/sesu9999-04.png",
-        "/img/sesu9999-05.png",
-        "/img/sesu9999-06.png",
-        "/img/sesu9999-07.png",
-        "/img/sesu9999-08.png",
-        "/img/sesu9999-09.png",
-        "/img/sesu9999-10.png",
-        "/img/sesu9999-11.png",
-        "/img/sesu9999-12.png",
-        "/img/sesu9999-13.png"
+        "/404/img/sesu9999-02.png",
+        "/404/img/sesu9999-04.png",
+        "/404/img/sesu9999-05.png",
+        "/404/img/sesu9999-06.png",
+        "/404/img/sesu9999-03.png",
+        "/404/img/sesu9999-07.png",
+        "/404/img/sesu9999-08.png",
+        "/404/img/sesu9999-09.png",
+        "/404/img/sesu9999-10.png",
+        "/404/img/sesu9999-11.png",
+        "/404/img/sesu9999-12.png",
+        "/404/img/sesu9999-13.png"
     ];
     window.onload = function() {
         spin();
@@ -50,7 +50,7 @@
             const boxes = door.querySelector(".boxes");
             const boxesClone = boxes.cloneNode(false);
 
-            const pool = ["img/sesu9999-15.png"];
+            const pool = ["/404/img/sesu9999-15.png"];
             if (!firstInit) {
                 const arr = [];
                 for (let n = 0; n < (groups > 0 ? groups : 1); n++) {
