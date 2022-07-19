@@ -1,20 +1,20 @@
 (function() {
     "use strict";
     let count = 0
-    const whatwewant = ["/404/img/sesu404-01.png", "/404/img/sesu404-02.png", "/404/img/sesu404-01.png"]
+    const whatwewant = ["games/popapill/img/sesu404-01.png", "games/popapill/img/sesu404-02.png", "games/popapill/img/sesu404-01.png"]
     const items = [
-        "/404/img/sesu9999-02.png",
-        "/404/img/sesu9999-04.png",
-        "/404/img/sesu9999-05.png",
-        "/404/img/sesu9999-06.png",
-        "/404/img/sesu9999-03.png",
-        "/404/img/sesu9999-07.png",
-        "/404/img/sesu9999-08.png",
-        "/404/img/sesu9999-09.png",
-        "/404/img/sesu9999-10.png",
-        "/404/img/sesu9999-11.png",
-        "/404/img/sesu9999-12.png",
-        "/404/img/sesu9999-13.png"
+        "games/popapill/img/sesu9999-02.png",
+        "games/popapill/img/sesu9999-04.png",
+        "games/popapill/img/sesu9999-05.png",
+        "games/popapill/img/sesu9999-06.png",
+        "games/popapill/img/sesu9999-03.png",
+        "games/popapill/img/sesu9999-07.png",
+        "games/popapill/img/sesu9999-08.png",
+        "games/popapill/img/sesu9999-09.png",
+        "games/popapill/img/sesu9999-10.png",
+        "games/popapill/img/sesu9999-11.png",
+        "games/popapill/img/sesu9999-12.png",
+        "games/popapill/img/sesu9999-13.png"
     ];
     window.onload = function() {
         spin();
