@@ -15,7 +15,16 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 500% 500%;
     animation: colors 15s ease infinite;
-    drop-shadow: (0px 0px 10px #ff0000);
+}
+
+.bggif {
+    background: url("/games/popapill/img/bg.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    animation: bgimage 15s ease infinite;
 }
 
 @keyframes colors {
