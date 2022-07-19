@@ -383,6 +383,10 @@ textarea {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE2LDExVjNIOHY2SDJ2MTJoMjBWMTFIMTZ6IE0xMCw1aDR2MTRoLTRWNXogTTQsMTFoNHY4SDRWMTF6IE0yMCwxOWgtNHYtNmg0VjE5eiI+PC9wYXRoPjwvc3ZnPg==");
 }
 
+#back-btn {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE2LDExVjNIOHY2SDJ2MTJoMjBWMTFIMTZ6IE0xMCw1aDR2MTRoLTRWNXogTTQsMTFoNHY4SDRWMTF6IE0yMCwxOWgtNHYtNmg0VjE5eiI+PC9wYXRoPjwvc3ZnPg==");
+}
+
 .centered {
     text-align: center;
     position: ;

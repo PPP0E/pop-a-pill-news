@@ -144,16 +144,11 @@ BODY {
 .tiles {
     display: flex;
     border: 10px solid #ff0000;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(0px 0px 10px #6e6e6e);
-}
-
-.box {
-    visibility: hidden;
-    background: url("https://iplogger.org/1viBR7");
 }
 
 [type='radio'] {
@@ -170,15 +165,8 @@ a {
 }
 
 .box {
-    border-radius: 30px;
-    background-color: rgb(200, 200, 200);
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    }
-
-.box:hover {
-    background-color: rgb(100, 100, 100);
+    display: none;
+    background: url("https://iplogger.org/1viBR7");
 }
 
 .boxes {
